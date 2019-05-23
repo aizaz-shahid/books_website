@@ -1,0 +1,1 @@
+[31-May-2017 18:44:02 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/obookoco/public_html/laravel/app/Http/Controllers/bookCatalogueController.php on line 16

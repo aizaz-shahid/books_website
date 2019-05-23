@@ -1,0 +1,85 @@
+
+
+#paging_container1{
+	height: 320px;	
+}
+
+#paging_container2{
+	height: 356px;	
+}
+
+#paging_container3{
+	height: 190px;
+}
+
+#paging_container4{
+	height: 307px;	
+	overflow: hidden;
+}
+
+#paging_container8 .no_more{
+    background-color: white;
+    color: gray;
+    cursor: default;
+}
+
+.ellipse{
+	float: left;
+}
+
+.xcontainer{
+	width: 260px;
+	float: left;
+	margin: 50px 10px 10px;
+	padding: 20px;
+	background-color: white;
+}
+
+.page_navigation 
+{
+	width: 250px;
+}
+
+.page_navigation , .alt_page_navigation{
+	padding-bottom: 20px;
+	clear: both;
+}
+
+.page_navigation a, .alt_page_navigation a{
+	font-weight: 900;
+	padding:5px 5px;
+	margin:3px;
+	color:#000000;
+	text-decoration:none;
+	float: left;
+	font-family: 'droid_sansregular';
+	font-size: 14px;
+	/*background-color:#F5F5F5;*/
+	border: solid 1px #DDDDDD;
+	width: 30px;
+	text-align: center;
+	border-radius: 5px;
+}
+.active_page{
+	color: #FFFFFF!important;
+	background-color:#F60!important;
+}	
+
+.content, .alt_content{
+	color: black;
+}
+
+.content li, .alt_content li, .content > p{
+	padding: 5px
+}
+@media (max-width: 600px) 
+{
+	[id^="paging_container"]
+	{
+		height: inherit !important;
+	}
+	#z-change
+	{
+		z-index:-1!important;
+	}
+}

@@ -1,0 +1,63 @@
+DirectoryIndex public/index.php
+
+
+
+<IFModule mod_deflate.c>
+<filesmatch "\.(js|css|html|jpg|png|gif|jpeg|php)$">
+SetOutputFilter DEFLATE
+</filesmatch>
+</IFModule>
+
+<IfModule pagespeed_module>
+  ModPagespeed on
+  ModPagespeedEnableFilters rewrite_css,combine_css
+  ModPagespeedEnableFilters recompress_images
+  ModPagespeedEnableFilters convert_png_to_jpeg,convert_jpeg_to_webp
+  ModPagespeedEnableFilters collapse_whitespace,remove_comments
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js)$">
+        Header set Cache-Control "max-age=2592000, private"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/x-javascript text/plain text/xml image/x-icon
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+   # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ public/index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

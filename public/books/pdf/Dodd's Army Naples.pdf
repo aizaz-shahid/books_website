@@ -1,0 +1,331 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Helvetica;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green176\blue80;\red255\green0\blue0;\red0\green0\blue255;}
+{\*\generator Riched20 6.3.9600}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\nowidctlpar\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\f0\fs24\par
+\cf0 NOTE: Thanks to you and your team: some good work done here. Much appreciated. Just a few more tweaks:\par
+\par
+Common issues:\par
+\par
+1. The search icon (mag glass) seems to have moved to the left quite a bit when viewed on my Mac. Please check\cf1 .(Working on it)\cf0\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+HOMEPAGE:\par
+\par
+Left column thumbnail text: fade at end of line is touching line above - should be applied only to last line in each case.........\cf1 done\par
+\cf0\par
+The two images in centre column still show incorrect alt tags. Not updating from admin (Main Page Editor.) Both still show "smile"  \cf1 ...... done\cf0\par
+\par
+Text for blog should show content from first line of blog content\cf2\b .(can't understand it , Aizaz)\par
+\cf0\b0\par
+Banner alt tag still not updating in admin (Main Page Editor)\par
+<div class="banner"><img src="images/banner.jpg" alt="download"></div>...\cf1 ...... done\cf0\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+BOOK LISTING PAGE....image matching to be left\par
+\par
+\par
+Please correct typo: 'Officially'\'85\'85\cf1 Done\par
+\cf0\par
+Star rating section: exactly as (booklisting-correct.png) Size of 'Rated' text incorrect, Line up edge of 'Thanks for voting' panel. I have attached two states for stars at 100% size. (remind me if I have not attached them) \cf1 ....done\cf0\par
+\par
+Thumbnails should be same size as homepage thumbnails. Close up space between images. (booklisting-correct.png)\'85..\cf1 Size same krdia ha spacing ni ki\par
+\cf0\par
+The latest book thumbnails are not updating/displaying. Latest book in category should always be displayed at top..... \cf1 .(can't understand it)\par
+\par
+\cf0\par
+Admin: Adult Filter: this will not turn OFF. ......done\cf1\par
+\cf0\par
+Also by the author thumbnails: align left with rest of content. ALSO, latest book by author thumbnail is not being displayed. ... \cf1 (Aligment is set ,can't understand thumbnail displayed)\par
+\cf0\par
+Increase space between urls and top of download panel as per booklisting-correct.png\cf1 .........done\par
+\cf0\par
+Increase depth of download panel as per booklisting-correct.png (approx 152px deep)............\cf1 done\par
+\par
+\cf0 Should be 12 lines of text before 'Read More' (you have 10) If you are using character count, please increase amount of characters. \cf1 Done\par
+\cf0\par
+Admin: Social Media Share Text. Whatever is entered here will apply to the category pages AND every book listing page in this category. Will you please fix this for all categories and download pages. For instance, should be 'Share the Suspense \'85' in thriller..........done\par
+\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+Category Page \cf1\par
+\cf0\par
+Line-up dropdown (Latest Books First, etc) to right: line up with right side of book column. See: {{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/category/crime-thriller-mystery }}{\fldrslt{http://www.obooko.com/free-ebooks/category/crime-thriller-mystery\ul0\cf0}}}}\f0\fs24  \cf1 done\par
+\cf0\par
+Dropdown should read as follows:\par
+\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\par
+Latest Books First \par
+\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\par
+Earlier Books First\par
+\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\par
+EPUB Books Only\par
+\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\par
+KINDLE Books Only\par
+\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\emdash\par
+\cf1 Done\par
+\par
+\cf0 NOTE:  If I select 'Earlier First' then go to page 2, the dropdown reverts to 'Latest First' please fix. \cf1 done\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+REGISTRATION PAGE \cf1 registration page all done\par
+\cf0\par
+\par
+Sorry, With the second name now being used, I think there are now too many fields for new users and they might get put off. I have asked a lot of users and they do not like having to enter email address and password twice. Please delete 'Re-enter Email Address" and "Re-enter Password" So, we will now have only 5 fields. \par
+\par
+Your First Name\par
+Your Last Name\par
+Email Address \par
+Enter a Username\par
+Enter a Password\par
+\par
+NOTE: when the system sends a confirmation message to the new user, is there a way to save the user's details in the database ONLY if the email arrives at destination? If it bounces (wrong email address) the details are not saved and user does not become a member Please advise me if this is possible - or, is there is another way to confirm the user is genuine? Thanks.\par
+\par
+Please move the captcha down so it lines up with the text entry field (like you have done on contact form.)\par
+\par
+There is a talktalk image, which displays at smaller screensize. Please delete:\par
+<div class="xs-center"> <img src="images/talktalk.jpg" alt="google adsans" class="smalladd mbottom20"></div>\par
+\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+SUBMIT BOOK (FIRST)\par
+\par
+Two lines of text at top of form missing\'85\'85\cf1 done\par
+\cf0\par
+Should read 'Author (if pen name)' this ties in with the two lines above\'85..\cf1 done\cf0  \par
+\par
+Synopsis field border too dark: should be same as others\cf1\par
+\cf0\par
+Please change the wording for the 4 fields below the synopsis field, to:\'85..\cf1 done\par
+\cf0\par
+Website Link\par
+Facebook Link\par
+Optional Link\par
+Optional link\par
+\par
+Explanation: each book may have different links: Youtube trailer, Amazon page, etc. They may even have a different facebook and website links. Especially if pen name is used. So the links will come ONLY from book submission NOT from admin. This is why I asked you to use the same form for 'Submit Another Book' You can charge me extra for this tweak \'85 but keep it reasonable! \par
+\par
+Please delete these fields from admin:\par
+\par
+Author Website\par
+Author Blog\par
+Author Facebook\par
+Author Twitter..................done\par
+\par
+5. Upload section: fist line should read: Files accepted: pdf, epub, mobi, azw, doc, docx, jpg, jpeg, png\'85\'85\cf1 done\par
+\cf0\par
+6. There should 5 upload fields: \'85..\cf1 done\par
+\cf0\par
+PDF FILE\par
+EPUB FILE\par
+KINDLE FILE\par
+WORD DOC\par
+POVER IMAGE\par
+\par
+Field borders are too dark: should be same as others. *NOTE: this may be a cross-browser or PS issue: on my iMac I see what is in the images. In the previous dev site this did not happen: the fields are cross-browser/OS friendly. Please check how they did it........done\par
+\par
+The text size in the fields and buttons do not follow style: should be same style as image and as on old dev site. If you cannot match these you must tell me because it is a design issue. ..........done\par
+\par
+* When you have finished all the tweaks I will purchase a browserstack account for a month so we can both go through the pages to see exactly how they look on different devices and operating systems. Unless you already have an account?\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+BLOG GALLERY PAGE\par
+\par
+Subsequent pages in pagination should always show all 7 latest books from the main page.\par
+ \par
+Are we going to use 'Popular Posts' I am not sure how this would work. If it is a problem, just delete this option. We will just show the latest posts. I suppose there should be an archive link though (as shown in blog-gallery.png) \'85 maybe it would open a page with a list? Let me know what you think.\par
+\par
+\cf2 ......(Can't able to understand the code ...I think you are using the same code for recent post and actual post)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+BLOG POST\par
+\par
+Top left text should be same as main blog gallery\'85.\cf1 done\par
+\cf0\par
+Posted by \'85 this should be in light grey same as blog gallery. Also add a return after so there is a line space before beginning of post content\'85\'85\cf1 done\par
+\cf0\par
+Admin. CK editor: add three options: font, font colour, font size (14pt, 18pt, 24pt, etc.) ....... done\par
+\par
+Can we have the 'cropped' square thumbnails as you have done on the gallery page? \cf1 yes\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+CONTACT PAGE \cf1\b Done\cf0\b0\par
+\par
+Message text entry field border: change to light grey as rest of borders.\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+FREE USER ACCOUNT \cf1\b all done\par
+\par
+\cf0\b0 1. 3) b) Line space between text and top of text entry field should be wider as per image. It is currenly too close to the fields.\par
+\par
+2. 4) b) Same as above, increase line space.\par
+\par
+3. 5) b) Close up space between bottom line of text and top of text entry field as image. Currently it is too far apart. Author account is correct, please do same.\par
+\par
+4. 5) c) The text entry field border is still too dark on my Mac. It still looks like the image. Please change to grey.  Author account is correct, please do same.\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+AUTHOR ACCOUNT\par
+\par
+1. 3) Download Figures: cannot check until you have completed this section.....(\cf1\b cant able to understand it ,aizaz)\cf0\par
+\par
+\b0 2. 4) b) Revisions and Updates. Please use the same form/code as SUBMIT BOOK (FIRST). The reason for this is the four link fields, which the author may change for each new book.  When developing a site, sometimes things are noticed that were not considered before. This can be charged extra if you wish\'85..\cf1 done\par
+\cf0\par
+3. Revisions and Updates: see 5,6,7,8 in comments for SUBMIT BOOK (FIRST) above\'85\'85\cf1 done\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+BACKEND\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+SEARCH\par
+\par
+Thanks for what you did with search, this would be good if users search only for book title and author. However, these are some of the queries put into the google custom search on my site:\par
+\par
+romance\par
+lietha wards\par
+harry potter\par
+everyone has a story\par
+ruth ann nordin\par
+paranormal romance\par
+love\par
+murder\par
+crime\par
+start business\par
+historical romance\par
+grey\par
+save money\par
+sex\par
+employment\par
+vampire\tab\par
+erotica\par
+christian fiction\par
+divergent\par
+\par
+As you can see, a couple were for authors but the rest are generic. This means users will search for any subject. \par
+\par
+Google uses words within these three areas to return closest results:\par
+\par
+TITLE \par
+DESCRIPTION \par
+CONTENT\par
+\par
+Book titles and authors are always within the title tag on the book listing pages. Other related words will probably be inside the description tag or the page content.\par
+\par
+So, we need an engine thats does a deeper crawl. Basically we need something like google's engine. Nice if we can have thumbnails, but not important. Just text will be fine.\par
+\par
+For Laravel, I searched and found these which may be possible answers. \par
+\par
+TNT Search, \par
+Laravel Scout\par
+Elasticsearch\par
+Sphinx\par
+\par
+Please let me know how you wish to proceed. This is an extra so it is chargeable, but again make the cost reasonable! If there is script you want me to buy, please let me know.\par
+\par
+IMPORTANT: whichever you choose, please ensure it will ignore robots noindex tags so that ALL pages are cached.\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+ADMIN \cf1 all done\cf0\par
+\par
+\par
+1. Tools & Essential Setups/Image Uploader - General \par
+There is still a "; at the very beginning, above 'this tool will upload\'85\par
+\par
+2. Tools & Essential Setups/Image Uploader - Books: There is still a "; at the very beginning, above 'this tool will upload\'85\par
+\par
+3. Tools & Essential Setups/Image Viewer - Books: ERROR \par
+ErrorException in Factory.php line 578:Cannot end a section without first starting one. (View: /var/www/html/blogs/resources/views/cms/view-covers-images.blade.php)\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+Single Pages editor\cf1 : done\par
+\cf0\par
+ADD NEW PAGE: Delete 'Right Top Advertorial block' and 'change the image' options. Adsense cannot be controlled here. Only in Advert Manager.\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+Book/Catalogue Editor/Manage Book Listings\par
+\par
+'Choose The Book Author' name should be first and second name. I will not know the authors username. I would have to search the database! It was your idea to have first and second name on registration for this purpose. The idea is for me to easily search from a list of authors. See previous dev site set up: {{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/obk-bk-lis.php }}{\fldrslt{http://www.obooko.com/free-ebooks/obk-bk-lis.php\ul0\cf0}}}}\f0\fs24 .... \cf1 done\par
+\cf0\par
+Insert 'Age Rating' field or button to trigger 'over 17 adverts' as in 'Advert Manager/Adult (17+)  \cf1 done\cf0\par
+\par
+Good work inserting the Adult filter option. However, I cannot get it to turn OFF. Please check\par
+b) When the Adult Filter is ON, the 3 Adsense adverts should CHANGE to the 3 Adult (17+) codes as in Advert Manager. (Adsense cannot appear on any adult related page.)......... \cf1 done\par
+\cf0\par
+'Choose The Book Cover Image' list should be alphabetical. This will be very difficult for me to locate files: there will be well over 2000! It works in the previous dev site: {{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/obk-bk-lis.php }}{\fldrslt{http://www.obooko.com/free-ebooks/obk-bk-lis.php\ul0\cf0}}}}\f0\fs24  \par
+please re-check this or offer alternative solution. \cf1 (I am following the same and previous dev site has the same thing)\par
+\cf0\par
+Ebook file not being displayed on book listing page (front-end) \par
+See: {{\field{\*\fldinst{HYPERLINK http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/download/one-last-lie-kaufman }}{\fldrslt{http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/download/one-last-lie-kaufman\ul0\cf0}}}}\f0\fs24\par
+'Please Select' in download panel does not display the 3 files.....()\par
+working fine on my pc..plz check it with another book \par
+If I delete a file in 'Files/ Manage Files' the files still appears in the book listing edit page. See: {{\field{\*\fldinst{HYPERLINK http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/edit_book?id=68 }}{\fldrslt{http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/edit_book?id=68\ul0\cf0}}}}\f0\fs24   \cf1 .....done\cf0\par
+ALSO, if I try to overwrite a file in edit page it does not work. In fact on one try I got an error (TokenMismatchException in VerifyCsrfToken.php line 67:) So, I need a way to either delete a file so I can upload a new one or be able to overwrite existing. Please advise. ..... \cf1 done and you can overwrite files but the filename will remain same\par
+\cf0\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+Book/Catalogue Editor/Manage Authors\par
+I do not understand this so will have to check through again and send comments later\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+Membership system? Membership Dashboard? \cf1 (Please Check Manage Users on side bar for membership system)\cf0\par
+I cannot find a dashboard. I will recheck and send comments later\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+User Panel Pages  \cf1 done\cf0\par
+\par
+CK editor: add three options: font, font colour, font size (14pt, 18pt, 24pt, etc.) \par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+Author Panel Pages  \cf1 done\par
+\cf0\par
+CK editor: add three options: font, font colour, font size (14pt, 18pt, 24pt, etc.)\f1\fs22\par
+}
+ 

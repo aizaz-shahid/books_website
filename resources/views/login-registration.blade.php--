@@ -1,0 +1,181 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Obooko Development Site</title>
+    <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="fonts/obooko-font.css"> 
+    <!--<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">-->
+</head>
+
+<body>
+<div class="container">
+<header>
+	<div class="banner"><img src="images/TRULY-FREE-EBOOKS.png" alt="TRULY-FREE-EBOOKS"></div>
+    <h1 class="header__tag">download ebooks without paying a penny: zilch, nada, nowt</h1>
+    <div class="row access-txt mttop33">
+    	<div class="col-sm-4"><p>Access to this website and every title in our free ebook categories is gratis. You may Download as many books as you wish 			with the compliments of our wonderful authors.</p></div>
+        <div class="col-sm-12 col-md-8 xs-center" style="padding-left:0px;">{!! $advert->a !!}</div>
+    </div>
+    
+    <section class="mttop17">
+      <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <a class="navbar-brand" href="ebooks-books"><img src="images/obooko.png" alt="obooko"></a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <form class="navbar-form navbar-right" role="search" action="http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/search-result" method="post">
+                <div class="form-group">
+                  <input type="text" name="search" class="form-control" placeholder="Search:"><button type="submit" class="btn btn-default searchbtn"></button>
+                </div>
+		{!! csrf_field() !!}
+             </form>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Free Fiction<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+		@foreach($resultSet11 as $result11)
+                    <li><a href="http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/category/{{$result11->slug}}">{{$result11->name}}</a></li>
+		@endforeach
+                                      </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Free Non-Fiction<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+		@foreach($resultSet12 as $result12)
+                    <li><a href="http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/category/{{$result12->slug}}">{{$result12->name}}</a></li>
+		@endforeach
+                                      </ul>
+                </li>
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="">About obooko</a></li>
+                    <li><a href="submit-book">submit book</a></li>
+                    <li><a href="blog">blog</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="contact-us">Contact Us</a></li>
+                    <li><a href="copyrights-explained">Copyright explained</a></li>
+                    <li><a href="">Sitemap</a></li>
+                    <li><a href="ebooks-books">Homepage</a></li>
+                  </ul>
+                </li>
+                <li><a href="login-registration">Log in</a></li>
+		<li><a href="login-registration">Register</a></li>
+                <li><a href="blog-gallery">Blog</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+            
+          </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+</header>	
+
+<section class="mttop33">
+    <div class="row middle">
+    	<div class="col-md-6">
+        	<form name="form-1" action="my-account" method="post" class="form">
+            	<h2>Member Log in</h2>
+                <p style="color: red">{{$Error3 or ''}}</p>
+                <div class="row">
+                <div class="row">
+                    <div class="col-sm-4 col-md-5"><label>Your Email</label></div>
+                    <div class="col-sm-8 col-md-7"><input type="email" class="form-control" name="email" id="email" required></div>
+                 </div>
+                 <div class="row">
+                    <div class="col-sm-4 col-md-5"><label>Your Password</label></div>
+                    <div class="col-sm-8 col-md-7"><input type="password" class="form-control" name="password" id="pwd" required></div>
+                  </div><br>
+                  <div class="row">
+                    <div class="col-sm-4 col-md-5"><span>Remember me</span></div>
+                    <div class="col-sm-8 col-md-7"><input type="checkbox" name="remember me"></div>
+                  </div>
+                    <div class="col-sm-10 mttop10"><label class="dn"><a href="recover-password">Forgotten or lost your password?</a></label></div>
+                    <div class="col-sm-2"><input type="submit" name="submit" id="submit" class="login"></div>
+					{!! csrf_field() !!}
+                </div>
+          </form>
+            
+            <div class="video" align="center"><img src="images/Video.jpg" alt="Video"></div>
+        </div> 
+        
+        <div class="col-md-6">
+        	<form name="form-2" action="welcome-user" method="post" class="form">
+            	<h2>Register here FREE!</h2>
+                <p style="color: red">{{$Error or ''}}</p>
+                <div class="row">
+                <div class="col-sm-4 col-md-5"><label>Your First Name</label></div>
+                <div class="col-sm-8 col-md-7"><input class="form-control" type="text" name="firstname" id="name" required></div>
+                
+                <div class="col-sm-4 col-md-5"><label>Your Email Address</label></div>
+                <div class="col-sm-8 col-md-7"><input type="email" class="form-control" name="email" id="email" required></div>
+                
+                <div class="col-sm-4 col-md-5"><label>Enter a Password</label></div>
+                <div class="col-sm-8 col-md-7"><input type="password" name="password" class="form-control" id="password" required></div>
+                
+                <div class="col-sm-4 col-md-5"><label>Re-enter Password</label></div>
+                <div class="col-sm-8 col-md-7"><input type="password" name="repassword" class="form-control" id="repassword" required></div>
+                
+                <div class="col-sm-4 col-md-5"><label>Male or Female</label></div>
+                <div class="col-sm-8 col-md-7">
+                    <select name="gender" class="form-control" required>
+                        <option>Please select</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>
+                </div>
+                
+                <div class="col-sm-4 col-md-5"><label>Your Country?</label></div>
+                <div class="col-sm-8 col-md-7">
+                    <select name="country" class="form-control" required>
+                        <option>Please select</option>
+                        <option value="Pakistan">Pakistan</option>
+                    </select>
+                </div>
+                
+                <div class="col-sm-12"><p>By submitting this form I confirm that I am over 13 years of age and that I have read and accept the obooko <u>terms and conditions</u> and <u>privacy policy.</u></p></div>
+                
+                <div class="mttop25">
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;Please enter the code below:</span>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-4 col-md-5">{!!captcha_img()!!}</div>
+                    <input type="hidden" name="captcha_value" value="3FzR">
+                    <div class="col-sm-8 col-md-7 mttop10"><input type="text" name="captcha" id="captcha" required></div>
+                </div>
+                
+                <div class="col-sm-12"><input type="submit" name="submit" id="submit"  class="mttop32"></div>			{!! csrf_field() !!}
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</section>
+
+<div class="xs-center"> <img src="images/talktalk.jpg" alt="google adsans" class="smalladd mbottom20"></div>
+
+<footer>
+<p class="xs-center">obooko is a Registered Trade Mark.&nbsp;&nbsp; &nbsp;  Website Copyright © obooko 2014.  Synopses, descriptions, images and files provided by authors and publishers are protected by individual Copyright.</p>
+</footer>
+
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

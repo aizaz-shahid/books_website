@@ -1,0 +1,382 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green176\blue80;\red0\green0\blue255;}
+{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
+\pard\f0\fs22\lang1033\par
+\par
+FRONTEND: Everything must be EXACT. White space, lining-up, font size, image size, etc. \par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+HOMEPAGE:\par
+\par
+Image: homepage-yours-wrong.png\par
+Image: homepage-correct.png\par
+\par
+1. The four book thumbnails in left column share the same alt tag (book 1): each should be as alt in their admin book listing.\par
+2. The two images in centre column show incorrect alt tags (not updating in admin\cf1 )....... (done)\par
+\cf0 3. Text for blog not being displayed.......... \cf1 (aizaz)\par
+\cf0 4. Spacing before 'Search' incorrect (please fix across all site pages)\par
+5. 'Read more' should always be at end of fourth line\cf1 ..(done)\par
+\cf0 6. Line up left column thumbnails as per image......... \cf1 (done)\par
+\cf0 Banner alt tag should be same as per category template.....(can't understand)\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+BOOK LISTING PAGE\par
+\par
+Image: booklisting-yours-wrong.png\par
+Image: booklisting-correct.png\par
+\par
+a.) Line spacing for title and author exactly as shown\cf1 .....(done)\par
+\cf0 b.) New: insert words in grey: 'Officially licensed for obooko members.' Now to be default on all pages. This will ensure there is no empty white space. Age Rating 17+ will be entered at the end of line automatically if 'over 17' page is selected in page edit in admin\cf1 .........(done)\par
+\cf0 c.) Star rating section EXACTLY like this. Type size for Rated text, spacing and stars. I will provide you with graphics for the stars to replace existing. Also, the 'Thanks you for Voting' panel as indicated: colour and lining-up.\par
+d.) Exactly as this: spacing, thumbnail size (same as homepage,) text, lining up..... \cf1 (done)\par
+\cf0 ALSO, the 2 books should be latest created - Newest book on top.\par
+e.) 12 lines of text before Read more\cf1 ..... (done)\par
+\cf0 f.) 5 images in line\cf1 .(aizaz)\par
+\cf0\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+CATEGORY PAGE\par
+\par
+Image: category-page-yours-wrong.png\par
+Image: category-page-correct.png\par
+\par
+a) Correct space before Search: (apply to all pages)\par
+b) line-up dropdown to right\cf1 ..... (done)\cf0\par
+\par
+Dropdown should read as follows:\par
+\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote  \par
+Latest Books First \par
+\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\par
+Earlier Books First\par
+\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\par
+EPUB Books Only\par
+\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\par
+KINDLE Books Only\par
+\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote\'e2\'80\rdblquote ........\cf1  (done)\cf0\par
+\par
+All books will have PDF version so no need to mention PDF books only.  When a user selects ePub only, they get all books that have an ePub file (the book may also have pdf and kindle files), latest book first. Same for kindle. \cf1 .... (done)\cf0\par
+\par
+IMPORTANT: currently, pagination disappears when epub or kindle selected from dropdown. Please fix\cf1 .......(done)\par
+\cf0\par
+c) Should be 5 rows (20 thumbnails displayed) per page. However, on Thriller, there are only 4 rows showing BUT (IMPORTANT) there are still books on page 2, which should run on from page 1. Please correct this....... \cf1 (done)\par
+\cf0\par
+d) This text block should line up with the foot of the bottom row of thumbnails\cf1 .......(done)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+REGISTRATION PAGE\par
+\par
+Image: registration-correct.png\par
+\par
+
+\pard a) Login panel: Move down to this position and underline link \cf1 done\cf0\par
+
+\pard b) Registration panel: Change first 6 in list to: \par
+\par
+Your First Name\par
+Your Last Name\par
+Your Email Address\par
+Confirm Email Address\par
+Enter a Username\par
+Enter a Password\par
+
+\pard\cf1 done\par
+
+\pard\cf0\par
+
+\pard c) Insert Captcha (none currently displayed)\cf1 done\cf0\par
+
+\pard d) This line must be invcluded\cf1 (what?)\par
+\par
+\cf0 - - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+SUBMIT BOOK (FIRST)\par
+\par
+Image: submit-book-first-correct.png\par
+\par
+This has not been done as instructed. Please follow image and text EXACTLY.\par
+\par
+1. Select Category: only 3 allowed. Change to show only 1 more dropdowns. Also, please add a cross character (X) to delete second category if not required. (see {{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/author-submit-submission)....(done }}{\fldrslt{http://www.obooko.com/free-ebooks/author-submit-submission\cf1 )....(done\ul0\cf0}}}}\cf1\f0\fs22 )\par
+\cf0\par
+2. Captcha NOT required because page is behind login \'e2\'80\'a6  or do you think it still requites a captcha\cf1 ?......(done)\par
+\cf0\par
+3. There is a progress bar on the form. If you do not use the progress bar, how will you display progress to user and let them know the form and files were uploaded successfully? Pop-up alert? Talk to me about this\cf1 .......(Talk to him about pop-up alert procedure)\par
+\cf0\par
+4. You can copy the text for left column here: {{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/user-submit-submission }}{\fldrslt{http://www.obooko.com/free-ebooks/user-submit-submission\ul0\cf0}}}}\f0\fs22\par
+\par
+5. NOTE: all field borders should be same grey\cf1 .......(done)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+BLOG POST\par
+\par
+I cannot test because there is an error on load:\par
+"ErrorException in bookCatalogueController.php line 143:"\par
+"NotFoundHttpException in RouteCollection.php line 161:"\par
+\par
+Let me know when fixed and I will check.\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+CONTACT PAGE\par
+\par
+Image: contact-page-correct.png\par
+\par
+a) Insert 2 x advert code \cf1 done\par
+
+\pard\cf0 b) border should be light grey as rest of boxes  \cf1 done\cf0\par
+c) Insert Captcha \cf1 done\cf0\par
+d) Decease width of captcha entry field \cf1 done\cf0\par
+
+\pard\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+FREE USER ACCOUNT\par
+\par
+1. Insert title tag for each page: user account home, user account password, user account email, user account close. \par
+\par
+2. Home: user-account-home-correct.png\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Change text to Hello \'e2\'80\'a6\'e2\'80\'a6.! Increase fonts size to same as message......... \cf1\b (done)\par
+\cf0\b0 c) increase line space \cf1 (done)\par
+\cf0\par
+\par
+3. Change Password: user-change-password-correct.png\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Increase line space between text and form fields exactly as image\cf1 .   (done)\cf0\par
+\par
+\par
+4. Change Email: user-change-email-correct.png\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Increase line space between text and form fields exactly as 3 above(done)\par
+c) increase size of form fields to exactly same as 3 above...(done)\par
+\par
+\par
+5. Close Account: user-close-account-correct.png\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Increase line space between text and form fields exactly as 3 above\cf1 ....(done)\par
+\cf0 c) Box border light grey as per other rules on page\cf1 ....(done)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+AUTHOR ACCOUNT\par
+\par
+1. Insert title tag for each page: author account home, author account figures, author account another book, author account revisions, author account password, author account email. \par
+\par
+2. Home: author-account-home-correct.png\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages\cf1 ).(done)\par
+\cf0 b) Change text to Hello \'e2\'80\'a6\'e2\'80\'a6.! Increase fonts size to same as message..... \cf1 (done)\par
+\cf0 c) increase line space\cf1 .(done)\par
+\cf0\par
+\par
+3. Download Figures: (no image) \par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Please create example for testing.\par
+c) Cannot check links because of error alert: "ErrorException in bookCatalogueController.php line 143:"\par
+\par
+\par
+4. Submit Another Book: (no image)\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Use exactly the same form as SUBMIT BOOK (FIRST) submit-book-first-correct.png...... \cf1 (done)\par
+\cf0\par
+4. Revisions and Updates: author-revisions-correct.png\par
+\par
+a) Decrease spacing in front of Search (should be same on all pages)\par
+b) Close up spacing between bottom of top paragraph and top field\cf1 ..(done)\cf0\par
+c) Border should be grey as rest of fields\cf1 ...(i think colors are ok already)\par
+\cf0\par
+\par
+5. Change Password: see user account image and instructions\cf1 ...(done)\par
+\cf0\par
+6. Change Email: see user account image and instructions\cf1 ....(done)\par
+\cf0\par
+\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+BACKEND\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\cf1 Asyou dont want to use google custom search i have developed a custom search based on books and their categories\par
+\cf0\par
+1) Search is not functioning. Not loading search page. See search page on free-ebooks development site.\par
+\par
+2) Increase search frame results width to line up. This is the code I am currently using on my static site if it helps:\par
+\par
+Search field:\par
+\par
+<form action="" id="cse-search-box">\par
+  <div>\par
+    <input type="hidden" name="cx" value="009925506794179664409:jfly2nm5amg" />\par
+    <input type="hidden" name="cof" value="FORID:10" />\par
+    <input type="hidden" name="ie" value="UTF-8" />\par
+    <input type="text" name="q" size="31" />\par
+    <input type="submit" name="sa" value="Search" />\par
+  </div>\par
+</form>\par
+\par
+Search results:\par
+\par
+<div id="cse-search-results"></div>\par
+<script type="text/javascript">\par
+  var googleSearchIframeName = "cse-search-results";\par
+  var googleSearchFormName = "cse-search-box";\par
+  var googleSearchFrameWidth = 552;\par
+  var googleNumSearchResults = 7;\par
+  var googleSearchDomain = "{{\field{\*\fldinst{HYPERLINK www.google.com }}{\fldrslt{www.google.com\ul0\cf0}}}}\f0\fs22 ";\par
+  var googleSearchPath = "/cse";\par
+</script>\par
+<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>\par
+</div>\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - - - \par
+\par
+ADMIN\par
+\par
+\par
+Tools & Essential Setups/Image Uploader - General \par
+1. Thumbnail of uploaded image should be displayed\cf1 ....(done)\par
+\cf0 2. PHP not closed properly: "; "; "; displayed\cf1 ...(done)\par
+\cf0 3. Path to image should not include /blogs/ (this will confuse me\cf1 )(done\cf0 )\par
+4. If same image file is uploaded it must be rejected and warning given (see free-ebooks dev site admin) IMAGE: admin-upload-status-warning.png           \cf1 (done)\par
+ \par
+\cf0 Tools & Essential Setups/Image Viewer - Generals  \par
+1. Display alphabetically    \cf1 (done)\par
+\cf0 2. Display 20 per tab        \cf1 (done)\par
+\cf0\par
+Tools & Essential Setups/Image Uploader - Books \par
+1. Same changes as 'Image Uploader' - General above    (\cf1 done\cf0 )\par
+\par
+Tools & Essential Setups/Image Viewer - Books \par
+1. Display alphabetically \cf1 (done)\cf0\par
+\par
+Tools & Essential Setups/Social Media Setup \par
+1. urksj\par
+ls do not update .. try using one i use on static site  \cf1 (done)\cf0\par
+\par
+Tools & Essential Setups/Footer Editor \par
+1. Analytic code does not update \cf1 (code is already updating)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+Manage Admin User's/Admin Users Listing/Manage Users\par
+\par
+1. delete cross from MY entry (tonymalloney): this is default and must be coded in database so that it CANNOT be deleted.\par
+\par
+\par
+Single Pages editor:\par
+\par
+1. Clicking 'Obooko Menu List' should refresh to show only menu ({{\field{\*\fldinst{HYPERLINK http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/admin)....(Done }}{\fldrslt{http://ec2-54-149-113-132.us-west-2.compute.amazonaws.com/admin\cf1 )....(Done\ul0\cf0}}}}\cf1\f0\fs22 )\par
+\cf0\par
+1. LOGO top left and 'HOME' link on right, should link to homepage (with css)..... \cf1 (Done)\par
+\cf0\par
+1. Delete 'Right Advertorial block' and 'change the image' There should be two adsense adverts in the right column exactly as other pages on the site\cf1 ....(Done)\par
+\cf0\par
+2. Insert Delete Page button so can delete pages, next to Update button ({{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/page-editor.php?page_id=123146 }}{\fldrslt{http://www.obooko.com/free-ebooks/page-editor.php?page_id=123146\ul0\cf0}}}}\f0\fs22 )........ \cf1 (Done)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - - \par
+\par
+\par
+Book/Catalogue Editor/Manage Book Listings\par
+\par
+1. 'Choose The Book Author' name should be first and second name. No captcha image in registration form so I cannot create new user and test. \cf1 (We are using only username so that we can differentiate users easily , as purpose of this field is to attach author with the book, all the other atributes of the author will be added automatically )\cf0\par
+\par
+2. Insert 'Age Rating' field or button to trigger 'over 17 adverts' as in 'Advert Manager/Adult (17+) you will see the ad' code is different for these pages. Also check I can change the default google adsense to another ad network if I wish. So, if I select over 17 button the 3 ads will change and 'Age Rating 17+' will be added after 'Officially licensed for obooko members.' on the book listing page.......... \cf1 (done)\par
+\cf0\par
+4. 'Choose The Book Cover Image' list should be alphabetical\cf1 ...(done,it will work on image extension type as php glob function don't support incase senstive sorting)\par
+\cf0 5. 'Ebook Files' name of file not loading on browser refresh\cf1 ...(done)\par
+\cf0 6. Ebook file not displayed on book listing page (front-end)\par
+7. 'Files' green download icon returns 404. Should display this page ({{\field{\*\fldinst{HYPERLINK http://www.obooko.com/free-ebooks/obk-bk-lis-f.php?id=133 }}{\fldrslt{http://www.obooko.com/free-ebooks/obk-bk-lis-f.php?id=133\ul0\cf0}}}}\f0\fs22 ) so that I can delete old files and update. Or, you can use a different system in 'Ebook Files' on Edit page, so that I can delete and replace files\cf1 ......(done)\par
+\cf0\par
+8. I need a checkbox or something (between rating offset and Title fields) so when I select, it adds a robots noindex tag to the head. <meta name="robots" content="noindex" /> This is an extra so you can charge me for this (reasonable\cf1 !)....(done)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+Book/Catalogue Editor/Manage Authors\par
+\par
+1. Should be a field for 'Author Surname' \cf1 (Other attributes can be changed from edit author.this area is just to create author in fast way )\par
+\cf0 2. Why do I need Author email and Author Password here? These will already be recorded in member database. Please explain reason.\par
+\cf1 (This area is just to create new users as a authors,free members will become author autmatically uf they upload a book but their books will not publish until you accept them from book catalogue portion)\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+Membership system? Membership Dashboard?\par
+1. To be completed. Abdullah to advise when completed.\par
+\cf1 (Completed)\cf0\par
+- - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+Blog Editor/Manage Blog Content \par
+\par
+1. I cannot test adding image to content because I am getting Error Exception alerts in front-end. Please let me know when fixed\par
+\par
+\par
+- - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+User Panel Pages\par
+\par
+1. 'Browse server for image' in editor: please make this work so I can select from uploaded images (general\cf1 )...(done)\par
+\cf0\par
+\par
+- - - - - - - - - - - - - - - - - - - - - -\par
+\par
+\par
+Author Panel Pages\par
+\par
+1. 'Browse server for image' in editor: please make this work so I can select from uploaded images (general\cf1 ).....(done)\par
+\cf0\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+}
+ 
